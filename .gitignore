@@ -1,0 +1,22 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Plan files
+*.tfplan
+tfplan
+
+# Variables (sensitive)
+*.tfvars
+*.tfvars.json
+
+# Optional
+.terraform.lock.hcl
+
+# Editor
+.vscode/
+
+# Logs
+*.log
